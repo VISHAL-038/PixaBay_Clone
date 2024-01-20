@@ -1,0 +1,23 @@
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  li {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
