@@ -44,7 +44,7 @@ const Image = () => {
     return (
         <div>
             <header>
-                <h3>Stunning royalty-free images & royalty-free stock</h3>
+                <h3 className='heading'>Stunning royalty-free images & royalty-free stock</h3>
                 <input type='text' value={searchString} onChange={handleSearch} placeholder="Search for images"></input>
             </header>
             <br></br>

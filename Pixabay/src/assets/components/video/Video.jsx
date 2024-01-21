@@ -44,7 +44,7 @@ const Video = () => {
     <div className="d">
       <header className="head">
         <h1 className="h">Stunning free stock video footage & clips</h1>
-        <input type="text" value={query} onChange={handleSearch} placeholder="Search for images"
+        <input type="text" value={query} onChange={handleSearch} placeholder="Search for videos"
         ></input>
       </header>
       <br></br>

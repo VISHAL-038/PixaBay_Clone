@@ -10,6 +10,7 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     height: 250px;
+    margin: 10px;
   }
   
   .image img {
@@ -32,21 +33,27 @@
 
 
   header {
-    /* position: relative; */
-    height: 80vh; /* Set header height to the viewport height */
-    background: url('https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_640.png') center/cover no-repeat; /* Replace 'your-image.jpg' with your image path */
+    height: 80vh; 
+    background: url('https://w.forfun.com/fetch/06/06280a17826041c78966307a7170f16d.jpeg') center/cover no-repeat; 
     display: flex;
-    flex-direction: column; /* Align children in a column */
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #fff; /* Set text color to white or appropriate color */
+    color: #fff; 
     padding: 20px;
+    margin: 10px;
 }
 input {
     padding: 10px;
     font-size: 16px;
-    width: 70%; /* Adjust the width as needed */
-    max-width: 400px; /* Set a maximum width if needed */
+    width: 80%; 
+    max-width: 400px; 
     box-sizing: border-box;
+    background-color: white;
+    color: black;
+}
+
+.heading{
+  color: white;
 }

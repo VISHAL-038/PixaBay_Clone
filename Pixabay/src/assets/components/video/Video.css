@@ -2,13 +2,12 @@
 .head {
   text-align: center;
   margin-bottom: 16px;
-  background: url('https://img.freepik.com/premium-photo/man-watching-videos-online-tablet_746318-948.jpg')center/cover no-repeat;
+  background: url('https://img.freepik.com/free-photo/man-watching-streaming-service-his-phone_23-2149047406.jpg')center/cover no-repeat;
 }
 
 .h {
   font-size: 24px;
   color: white;
-  background-color: #333;
 }
 
 input {
@@ -25,6 +24,7 @@ input {
 .video {
   position: relative;
   overflow: hidden;
+  border: solid 1px black;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 16px;
