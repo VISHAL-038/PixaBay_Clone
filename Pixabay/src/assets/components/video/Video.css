@@ -1,24 +1,35 @@
+/* Video.css */
+
+.d {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 20px;
+}
 
 .head {
   text-align: center;
   margin-bottom: 16px;
-  background: url('https://img.freepik.com/free-photo/man-watching-streaming-service-his-phone_23-2149047406.jpg')center/cover no-repeat;
+  background: url('https://img.freepik.com/free-photo/man-watching-streaming-service-his-phone_23-2149047406.jpg') center/cover no-repeat;
+  padding: 20px;
+  margin: 10px;
+  color: white;
 }
 
 .h {
   font-size: 24px;
-  color: white;
 }
 
 input {
-  padding: 8px;
+  width: 100%;
+  padding: 12px;
   font-size: 16px;
 }
 
 .video-grid {
   display: grid;
-  /* grid-template-columns: repeat(auto-fill, minmax(250px, 2fr)); */
-  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 10px;
 }
 
 .video {
@@ -27,18 +38,17 @@ input {
   border: solid 1px black;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 16px;
   padding: 20px;
-  margin: 10px auto;
 }
 
 h3 {
-  margin: 8px 0;
+  margin: 12px 0;
   font-size: 18px;
   color: #666;
 }
 
 .react-player {
+  width: 100%;
   border-radius: 8px;
 }
 
@@ -48,4 +58,19 @@ span {
   font-size: 18px;
   margin-top: 16px;
   color: #333;
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 600px) {
+  .h {
+    font-size: 20px;
+  }
+
+  input {
+    font-size: 14px;
+  }
+
+  .video-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
 }

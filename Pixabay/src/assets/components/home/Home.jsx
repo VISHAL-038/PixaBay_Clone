@@ -3,7 +3,7 @@ import "./Home.css"
 
 const Home = () => {
   return (
-    <div>
+    <div className='home'>
       <h1>Welcome to Pixabay – Your Ultimate Destination for Stunning Free Images and Videos!</h1>
       <p>Discover a world of creativity at your fingertips with Pixabay, your go-to platform for high-quality, royalty-free images and videos. Whether you're a designer, blogger, marketer, or simply someone who appreciates breathtaking visuals, Pixabay is your virtual treasure trove of diverse, eye-catching content.</p>
 
