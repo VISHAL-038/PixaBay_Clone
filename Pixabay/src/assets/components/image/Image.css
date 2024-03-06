@@ -12,7 +12,13 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     height: 250px;
     margin: 10px;
-  }
+    transition: transform 0.3s ease;
+}
+
+.image:hover {
+    transform: scale(1.05);
+}
+
   
   .image img {
     width: 100%;
